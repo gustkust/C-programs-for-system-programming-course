@@ -25,7 +25,7 @@ int c = 0;
 while (c != 10)
 {
         read(file1, &character, 1);
-        if (character == ' ')
+        if (character == ' ' || character == '\n')
         {
                 c += 1;
         }
